@@ -19,7 +19,7 @@ header {
 .header {
     display: flex;
     flex-direction: row;
-    gap:13px;
+    gap:23px;
 }
 
 #add-button {
@@ -65,6 +65,6 @@ input {
     font-size: 17px;
     font-weight: 600;
     height: 40%;
-    position:relative;
-    top: 55%;
+    margin-top: 20px;;
+
 }
