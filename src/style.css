@@ -29,7 +29,9 @@ header {
     font-weight: 600;
     font-family: 'Anek Telugu', sans-serif;
     box-shadow: 3px 3px;
-    padding: 10px;
+    padding: 7px;
+    position:relative;
+    left: 35%;
 }
   
 .form {
