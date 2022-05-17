@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Anek Telugu', sans-serif;
+}
+
+header {
+  margin: 100px 300px 10px 300px;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  margin: 0 330px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+}
+
+#add-button {
+  background-color: white;
+  border: solid 2px black;
+  font-size: 17px;
+  font-weight: 600;
+  box-shadow: 3px 3px;
+  padding: 7px;
+  position: relative;
+  left: 35%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  border: solid 2px black;
+  padding: 17px;
+  font-size: 19px;
+}
+
+.board {
+  width: 90%;
+  border: solid 2px black;
+  padding: 0 10px;
+}
+
+.board:nth-child(odd) {
+  background-color: black;
+}
+
+#refresh {
+  box-shadow: 3px 3px;
+  background-color: white;
+  border: solid 2px black;
+  font-size: 17px;
+  font-weight: 600;
+  height: 40%;
+  margin-top: 20px;
+}
+
+#add-button,
+#refresh:hover {
+  cursor: pointer;
+}
