@@ -12,15 +12,15 @@ header {
 
 .container {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   gap: 60px;
-  margin:0 330px;
+  margin: 0 330px;
 }
 
 .header {
   display: flex;
   flex-direction: row;
-  gap:23px;
+  gap: 23px;
 }
 
 #add-button {
@@ -30,16 +30,16 @@ header {
   font-weight: 600;
   box-shadow: 3px 3px;
   padding: 7px;
-  position:relative;
+  position: relative;
   left: 35%;
 }
-  
+
 .form {
   display: flex;
   flex-direction: column;
-  align-items: center;  
+  align-items: center;
 }
-  
+
 input {
   border: solid 2px black;
   padding: 17px;
@@ -49,15 +49,11 @@ input {
 .board {
   width: 90%;
   border: solid 2px black;
-  padding:0 10px;
+  padding: 0 10px;
 }
 
 .board:nth-child(odd) {
   background-color: black;
-}
-
-#add-button,#refresh:hover {
-  cursor: pointer;
 }
 
 #refresh {
@@ -67,5 +63,10 @@ input {
   font-size: 17px;
   font-weight: 600;
   height: 40%;
-  margin-top: 20px;;
+  margin-top: 20px;
+}
+
+#add-button,
+#refresh:hover {
+  cursor: pointer;
 }
