@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    margin:100px 300px;
+  margin:100px 300px;
 }
 
 .container {
@@ -44,4 +44,16 @@ input {
     border: solid 2px black;
     padding: 17px;
     font-size: 19px;
+}
+
+.board {
+    border: solid 2px black;
+}
+
+.board:nth-child(odd) {
+    background-color: black;
+}
+
+#add-button,#refresh:hover {
+    cursor: pointer;
 }
