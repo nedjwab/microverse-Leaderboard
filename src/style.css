@@ -27,7 +27,6 @@ header {
     border: solid 2px black;
     font-size: 17px;
     font-weight: 600;
-    font-family: 'Anek Telugu', sans-serif;
     box-shadow: 3px 3px;
     padding: 7px;
     position:relative;
@@ -48,6 +47,7 @@ input {
 
 .board {
     border: solid 2px black;
+    padding:0 10px;
 }
 
 .board:nth-child(odd) {
@@ -56,4 +56,15 @@ input {
 
 #add-button,#refresh:hover {
     cursor: pointer;
+}
+
+#refresh {
+    box-shadow: 3px 3px;
+    background-color: white;
+    border: solid 2px black;
+    font-size: 17px;
+    font-weight: 600;
+    height: 40%;
+    position:relative;
+    top: 55%;
 }
