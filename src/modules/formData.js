@@ -1,5 +1,11 @@
 
 
+import {
+    postData
+      } from './GetPostData.js';
+      
+      
+    
 //get the data from the form
 export const formData =(e)=> {
     e.preventDefault();

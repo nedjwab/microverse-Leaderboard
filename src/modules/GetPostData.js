@@ -1,3 +1,7 @@
+import {
+    displayData
+      } from './displayData.js';
+      
 
 //fetching data  (getdata)
 export async function getData() {
