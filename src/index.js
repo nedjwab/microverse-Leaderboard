@@ -13,14 +13,10 @@ import {
   getData,
 } from './modules/GetPostData.js';
 
-import
-displayData
-from './modules/displayData.js';
-
 // add eventlistner to the buttons
 form.addEventListener('submit', formData);
 Refresh.addEventListener('click', getData);
 
-window.onload=()=> {
-    getData();
-}
+window.onload = () => {
+  getData();
+};
