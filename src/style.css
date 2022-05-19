@@ -58,12 +58,11 @@ input {
 .board {
   width: 90%;
   border: solid 2px black;
-  padding: 0 4px;
-  
+  font-size: 20px;
 }
 
-.board:nth-child(odd) {
-  background-color: black;
+.item:nth-child(odd) {
+  background-color:#F9F3EE;
 }
 
 #refresh {
@@ -88,4 +87,9 @@ input {
 
 .fa-crown {
   color:#FFE69A ;
+  margin-right: 9px;
+}
+
+.item {
+  margin-left: 10px;
 }
