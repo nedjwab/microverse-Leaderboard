@@ -7,7 +7,8 @@ body {
 }
 
 header {
-  margin: 100px 30% 10px 30%;
+  display: flex;
+  margin:30px 40px;
   font-size: 20px;
 }
 
@@ -82,4 +83,8 @@ input {
 .informations {
   margin-right: 150px;
   width:30%;
+}
+
+.fa-crown {
+  color:#FFE69A ;
 }
