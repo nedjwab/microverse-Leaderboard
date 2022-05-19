@@ -50,9 +50,10 @@ header {
 }
 
 input {
-  border: solid 2px black;
+  border: solid 1px #DDDDDD;
   padding: 17px;
-  font-size: 19px;
+  font-size: 17px;
+  border-radius: 20px;
 }
 
 .board {
