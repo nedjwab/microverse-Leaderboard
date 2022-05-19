@@ -8,8 +8,9 @@ body {
 
 header {
   display: flex;
-  margin:30px 40px;
-  font-size: 20px;
+  justify-content: center;
+  margin:50px 40px;
+  font-size: 27px;
 }
 
 .container {
@@ -18,8 +19,8 @@ header {
   gap: 60px;
   justify-content: center;
   margin-bottom: 27px;
-  margin-left:58px;
-  margin-right: 58px;
+  margin-left:100px;
+  margin-right: 100px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 30px 10px;
   border-radius: 20px;
@@ -34,12 +35,11 @@ header {
 
 #add-button {
   background-color: white;
-  border: solid 2px black;
   font-size: 17px;
-  font-weight: 600;
-  box-shadow: 3px 3px;
+  font-weight: 400;
   padding: 7px;
   position: relative;
+  border: solid 1px #EDE6DB;
   left: 35%;
 }
 
@@ -59,7 +59,7 @@ input {
   width: 90%;
   border: solid 1px black;
   font-size: 20px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .item:nth-child(odd) {
@@ -67,18 +67,28 @@ input {
 }
 
 #refresh {
-  box-shadow: 3px 3px;
   background-color: white;
-  border: solid 2px black;
   font-size: 17px;
-  font-weight: 600;
+  font-weight: 400;
   height: 40%;
   margin-top: 20px;
+  border:none;
+  margin-left: 140px;
+  border: solid 1px #EDE6DB;
+  padding:10px;
 }
 
-#add-button,
 #refresh:hover {
   cursor: pointer;
+  border-radius: 20px;
+  background-color:#F9F3EE;
+}
+
+#add-button:hover {
+  cursor: pointer;
+  border-radius: 20px;
+  background-color:#F9F3EE;
+  padding:13px;
 }
 
 .informations {
