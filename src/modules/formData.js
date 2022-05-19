@@ -6,8 +6,8 @@ import {
 // get the data from the form
 export const formData = (e) => {
   e.preventDefault();
-  const name = document.querySelector('.name').value;
-  const score = document.querySelector('.score').value;
+  let name = document.querySelector('.name').value;
+  let score = document.querySelector('.score').value;
   const obj = {
     name,
     score,
