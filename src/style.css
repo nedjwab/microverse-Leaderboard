@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  margin: 100px 300px 10px 300px;
+  margin: 100px 30% 10px 30%;
   font-size: 20px;
 }
 
@@ -14,13 +14,19 @@ header {
   display: flex;
   flex-direction: row;
   gap: 60px;
-  margin: 0 330px;
+  justify-content: center;
+  margin-bottom: 27px;
+  margin-left:58px;
+  margin-right: 58px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px 10px;
+  border-radius: 20px;
 }
 
 .header {
   display: flex;
   flex-direction: row;
-  gap: 23px;
+  gap: 93px;
 }
 
 #add-button {
@@ -69,4 +75,9 @@ input {
 #add-button,
 #refresh:hover {
   cursor: pointer;
+}
+
+.informations {
+  margin-right: 150px;
+  width:30%;
 }
