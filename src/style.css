@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&display=swap');
 
+@media (min-width: 768px) {
 body {
   margin: 0;
   font-family: 'Anek Telugu', sans-serif;
@@ -104,4 +105,5 @@ input {
 
 .item {
   margin-left: 10px;
+}
 }
