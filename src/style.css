@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font-family: 'Anek Telugu', sans-serif;
-  background-color:#B1BCE6;
+  background-color:#F9F3EE;
 }
 
 header {
@@ -57,8 +57,9 @@ input {
 
 .board {
   width: 90%;
-  border: solid 2px black;
+  border: solid 1px black;
   font-size: 20px;
+  border-radius: 20px;
 }
 
 .item:nth-child(odd) {
