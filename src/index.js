@@ -2,7 +2,7 @@
 import './style.css';
 
 import {
-  form, Refresh,submit
+  form, Refresh, submit,
 } from './modules/elements.js';
 
 import {
@@ -16,9 +16,9 @@ import {
 // add eventlistner to the buttons
 form.addEventListener('submit', formData);
 Refresh.addEventListener('click', getData);
-submit.addEventListener('click',()=>{
+submit.addEventListener('click', () => {
   form.reset();
-})
+});
 
 window.onload = () => {
   getData();
