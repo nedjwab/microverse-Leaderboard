@@ -57,9 +57,10 @@ input {
 
 .board {
   width: 100%;
-  border: solid 1px black;
+  border: solid 1px #4d4c7d;
   font-size: 20px;
   border-radius: 10px;
+  margin-top: 10px;
 }
 
 .item {
@@ -69,6 +70,7 @@ input {
 .item:nth-child(even) {
   background-color: #fee2c5;
   margin-bottom: 0;
+  padding: 12px 0;
 }
 
 #refresh {
