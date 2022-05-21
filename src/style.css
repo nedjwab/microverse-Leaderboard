@@ -10,7 +10,7 @@
   header {
     display: flex;
     justify-content: center;
-    margin: 50px 40px;
+    margin: 50px 40px 20px 40px;
     font-size: 27px;
   }
 
@@ -39,7 +39,7 @@
     font-weight: 400;
     padding: 7px;
     position: relative;
-    border: solid 1px #ede6db;
+    border: solid 1px #4D4C7D;
     left: 35%;
   }
 
@@ -50,7 +50,7 @@
   }
 
   input {
-    border: solid 1px #ddd;
+    border: solid 1px #4D4C7D;
     padding: 17px;
     font-size: 17px;
     border-radius: 20px;
@@ -64,11 +64,12 @@
   }
 
   .item {
-    margin-left: 10px;
+    margin-left: 4px;
   }
 
-  .item:nth-child(odd) {
-    background-color: #AC7D88;
+  .item:nth-child(even) {
+    background-color: #FEE2C5;
+    margin-bottom: 0;
   }
 
   #refresh {
@@ -78,21 +79,23 @@
     height: 40%;
     margin-top: 20px;
     margin-left: 220px;
-    border: solid 1px #ede6db;
+    border: solid 1px #4D4C7D;
     padding: 10px;
   }
 
   #refresh:hover {
     cursor: pointer;
     border-radius: 20px;
-    background-color: #f9f3ee;
+    background-color: #FEE2C5;
+    border:none;
   }
 
   #add-button:hover {
     cursor: pointer;
     border-radius: 20px;
-    background-color: #f9f3ee;
+    background-color: #FEE2C5;
     padding: 13px;
+    border:none;
   }
 
   .informations {
