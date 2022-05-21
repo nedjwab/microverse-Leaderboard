@@ -3,8 +3,9 @@ const displayData = (scores) => {
   const container = document.querySelector('.board');
   let list = '';
   scores.result.forEach((item) => {
-    list += `
-        <p>${item.user} : ${item.score} </p>
+    list += `<p class="item">
+    <i class="fa-solid fa-crown"></i>${item.user} : ${item.score} </li>
+        </p>
       `;
   });
   container.innerHTML = list;

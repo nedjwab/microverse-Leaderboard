@@ -3,34 +3,42 @@
 body {
   margin: 0;
   font-family: 'Anek Telugu', sans-serif;
+  background-color: #f9f3ee;
 }
 
 header {
-  margin: 100px 300px 10px 300px;
-  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 50px 40px 20px 40px;
+  font-size: 27px;
 }
 
 .container {
   display: flex;
   flex-direction: row;
   gap: 60px;
-  margin: 0 330px;
+  justify-content: center;
+  margin-bottom: 27px;
+  margin-left: 100px;
+  margin-right: 100px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+  padding: 30px 10px;
+  border-radius: 20px;
+  background-color: white;
 }
 
 .header {
   display: flex;
   flex-direction: row;
-  gap: 23px;
 }
 
 #add-button {
   background-color: white;
-  border: solid 2px black;
   font-size: 17px;
-  font-weight: 600;
-  box-shadow: 3px 3px;
+  font-weight: 400;
   padding: 7px;
   position: relative;
+  border: solid 1px #4d4c7d;
   left: 35%;
 }
 
@@ -41,32 +49,62 @@ header {
 }
 
 input {
-  border: solid 2px black;
+  border: solid 1px #4d4c7d;
   padding: 17px;
-  font-size: 19px;
+  font-size: 17px;
+  border-radius: 20px;
 }
 
 .board {
-  width: 90%;
-  border: solid 2px black;
-  padding: 0 10px;
+  width: 100%;
+  border: solid 1px #4d4c7d;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
 }
 
-.board:nth-child(odd) {
-  background-color: black;
+.item {
+  margin-left: 4px;
+}
+
+.item:nth-child(even) {
+  background-color: #fee2c5;
+  margin-bottom: 0;
+  padding: 12px 0;
 }
 
 #refresh {
-  box-shadow: 3px 3px;
   background-color: white;
-  border: solid 2px black;
   font-size: 17px;
-  font-weight: 600;
+  font-weight: 400;
   height: 40%;
   margin-top: 20px;
+  margin-left: 220px;
+  border: solid 1px #4d4c7d;
+  padding: 10px;
 }
 
-#add-button,
 #refresh:hover {
   cursor: pointer;
+  border-radius: 20px;
+  background-color: #fee2c5;
+  border: none;
+}
+
+#add-button:hover {
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: #fee2c5;
+  padding: 13px;
+  border: none;
+}
+
+.informations {
+  margin-right: 150px;
+  width: 40%;
+}
+
+.fa-crown {
+  color: #ffe69a;
+  margin-right: 9px;
 }

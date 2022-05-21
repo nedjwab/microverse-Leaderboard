@@ -1,9 +1,10 @@
   ![](https://img.shields.io/badge/Microverse-blueviolet) 
 
 # Leaderboard
+The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external.
 
-In this Project i have built a Leaderboard  App.
-
+## Live Demo 
+[Here](https://nedjwab.github.io/microverse-Leaderboard/dist/) you can find a live demo of the project.
 
 
 ## Built With 🔨
@@ -14,7 +15,7 @@ In this Project i have built a Leaderboard  App.
 - **Webpack**
 - Linters (Lighthouse, Webhint, Stylelint, Eslint)
 - Git/GitHub work-flow
-- Api
+- [Leaderboard API service](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3) 
 
 
 ### Installation 
